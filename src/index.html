@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--    Perlu ditambahkan! karena untuk membaca styling bootstrap secara global -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <title>Movie Search</title>
 </head>
 
@@ -18,8 +15,12 @@
 
     <main>
         <search-bar></search-bar>
-        <div class="row d-flex justify-content-center" id="movie-list"></div>
+        <div class="container">
+            <div class="row d-flex justify-content-center" id="movie-list"></div>
+        </div>
     </main>
+
+    <modal-box></modal-box>
 </body>
 
 </html>
