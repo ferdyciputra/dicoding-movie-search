@@ -4,7 +4,7 @@
 > **`cd dicoding-movie-search`**
 
 ## Install Package
-> **`npm instal`**
+> **`npm install`**
 
 ## Run Project as development
 > **`npm run start-dev`**
