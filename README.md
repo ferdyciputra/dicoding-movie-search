@@ -1,7 +1,7 @@
 ### Clone project
-> `git clone https://github.com/ferdyciputra/dicoding-movie-search.git`
+> git clone https://github.com/ferdyciputra/dicoding-movie-search.git
 >
-> `cd dicoding-movie-search`
+> cd dicoding-movie-search
 <hr>
 
 ### Install Package
