@@ -5,7 +5,7 @@
 <hr>
 
 ### Install Package
-> `npm instal`
+> **`npm instal`**
 <hr>
 
 ### Run Project as development
