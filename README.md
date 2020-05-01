@@ -1,12 +1,15 @@
-# Clone project
-git clone https://github.com/ferdyciputra/dicoding-movie-search.git
-cd dicoding-movie-search
+### Clone project
+> `git clone https://github.com/ferdyciputra/dicoding-movie-search.git`
+> `cd dicoding-movie-search`
+<hr>
 
-# Install Package
-npm instal
+### Install Package
+> `npm instal`
+<hr>
 
-# Run Project as development
-npm run start-dev
+### Run Project as development
+> `npm run start-dev`
+<hr>
 
-# Build Project
-npm run build
+### Build Project
+> `npm run build`
