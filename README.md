@@ -1,5 +1,6 @@
 ### Clone project
 > `git clone https://github.com/ferdyciputra/dicoding-movie-search.git`
+>
 > `cd dicoding-movie-search`
 <hr>
 
