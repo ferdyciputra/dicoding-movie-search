@@ -1,11 +1,11 @@
 class DetailMovie extends HTMLElement {
-    set detailMovie(id) {
-        this._detailMovie = id;
-        this.render();
-    }
+  set detailMovie(id) {
+    this._detailMovie = id;
+    this.render();
+  }
 
-    render() {
-        $('.modal-body').html(`
+  render() {
+    $('.modal-body').html(`
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
@@ -21,9 +21,8 @@ class DetailMovie extends HTMLElement {
                     </ul>
                 </div>
             </div>
-        </div>`)
-    }
-
+        </div>`);
+  }
 }
 
-customElements.define("detail-movie", DetailMovie);
+customElements.define('detail-movie', DetailMovie);

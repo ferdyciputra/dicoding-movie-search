@@ -1,19 +1,19 @@
 class SearchBar extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    set clickEvent(event) {
-        this._clickEvent = event;
-        this.render();
-    }
+  set clickEvent(event) {
+    this._clickEvent = event;
+    this.render();
+  }
 
-    get value() {
-        return this.querySelector("#search-input").value;
-    }
+  get value() {
+    return this.querySelector('#search-input').value;
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
     <div class="container">
         <div class="row mt-3 justify-content-center">
             <div class="col-md-8">
@@ -28,8 +28,8 @@ class SearchBar extends HTMLElement {
         </div>
         <hr>
     </div>`;
-        this.querySelector("#search-button").addEventListener("click", this._clickEvent);
-    }
+    this.querySelector('#search-button').addEventListener('click', this._clickEvent);
+  }
 }
 
-customElements.define("search-bar", SearchBar);
+customElements.define('search-bar', SearchBar);
